@@ -1,0 +1,63 @@
+.quizContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw ;
+    justify-content: center;
+    height: 38vw;
+    background-color: white;
+    width: 82vw;
+    color: black;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 2px solid purple;
+}
+
+h2{
+    font-size: 2.3rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+.pageNumber{
+    align-self: start;
+}
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 7.7vh;
+}
+
+
+.optionButton{
+    width: 38vw;
+    height: 6.5vh;
+    background-color: lightskyblue;
+    border-radius: 70px;
+}
+
+.actions{
+    margin-top: 8.5vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.previous-button{
+    background-color: #60a4d7;
+}
+
+.next-button{
+    background-color: lightgreen;
+}
+
+.quit-button{
+    background-color: #f76a6a;
+}
+
+.finish-button{
+    background-color: whitesmoke;
+}

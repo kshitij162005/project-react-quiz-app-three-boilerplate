@@ -1,0 +1,74 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result{
+    color: rgb(0, 241, 24);
+}
+
+.resultPageContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 30vw;
+    color: black;
+    padding-inline: 2vw ;
+    margin-bottom: -10px;
+}
+
+.statements{
+    padding-top: 3.5vh;
+}
+
+.statement h2{
+    font-size: 1.5rem;
+}
+
+.score{
+    font-size: 0.8rem;
+    color: blue;
+    margin-top: -20px;
+}
+
+.questionCount{
+    margin-top: 2vh;
+}
+
+.questionNumber{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.questionNumber h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.buttons{
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+    display: flex;
+    column-gap: 2.7vw;
+}
+
+.playAgainButton{
+    border-radius: 0;
+    border: 3px outset rgb(104, 104, 239);
+    background-color: aliceblue;
+    color: rgb(158, 158, 243);
+    height: 5vh;
+}
+
+.backButton{
+    border-radius: 0;
+    border: 3px outset rgb(0, 110, 0);
+    background-color: aliceblue;
+    color: rgb(1, 162, 1);
+    height: 5vh;
+}
